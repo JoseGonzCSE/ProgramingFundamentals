@@ -1,0 +1,2 @@
+D:\Code\C++\Assignment 0\Assignment_0\Debug\Assignment_0.exe
+D:\Code\C++\Assignment 0\Assignment_0\Debug\Assignment_0.pdb

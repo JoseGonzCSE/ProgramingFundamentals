@@ -1,0 +1,2 @@
+D:\Code\C++\assignment 7\TheLeagueUpgrade\Debug\TheLeagueUpgrade.exe
+D:\Code\C++\assignment 7\TheLeagueUpgrade\Debug\TheLeagueUpgrade.pdb

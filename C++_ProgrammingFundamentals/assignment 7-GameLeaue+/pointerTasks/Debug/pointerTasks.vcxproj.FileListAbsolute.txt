@@ -1,0 +1,2 @@
+D:\Code\C++\assignment 7\pointerTasks\Debug\pointerTasks.exe
+D:\Code\C++\assignment 7\pointerTasks\Debug\pointerTasks.pdb

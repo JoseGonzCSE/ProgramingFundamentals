@@ -1,0 +1,3 @@
+﻿  CStrings.cpp
+D:\Code\C++\Assignment 8\C-Strings\CStrings.cpp(110,22): warning C4018: '<': signed/unsigned mismatch
+  C-Strings.vcxproj -> D:\Code\C++\Assignment 8\C-Strings\Debug\C-Strings.exe

@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\Code\C++\Assignment 3\Graded Participation\Source.cpp(35,38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Graded Participation.vcxproj -> D:\Code\C++\Assignment 3\Graded Participation\Debug\Graded Participation.exe

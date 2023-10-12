@@ -1,0 +1,2 @@
+D:\Code\C++\Assignment 8\C-Strings\Debug\C-Strings.exe
+D:\Code\C++\Assignment 8\C-Strings\Debug\C-Strings.pdb

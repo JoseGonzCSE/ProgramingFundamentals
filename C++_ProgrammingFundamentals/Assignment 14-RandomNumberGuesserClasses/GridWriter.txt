@@ -1,0 +1,31 @@
+
+Grid Writer Assignment 14 Questions Jose Gonzalez:
+
+Why is it necessary to put  “this->” in front of x and y? 
+
+1)For these two argument constrctors in the Shape class the reasion as to why it is necessary to include "this->" in front of x and y is due to the fact that the variable names are identical.
+By introducing the "this->" it helps the program to distinguish between them and allows the left side of the code to be coppied into the the new x and y.
+
+In the containsPoint member function of Circle, why are this->x and this->y in scope, even though they are not defined as member variables in Circle.h?
+
+2)The cause of those two being in the scope regardless of the fact that they were not included in Circle.h is because Circle inherited them from the Shape.h class. This is evident by the #include "Shape.h" 
+in Circle.h.
+
+What is the purpose of the keyword “virtual” in front of Shape::containsPoint and Shape::getArea?  What is the purpose of the “ = 0”?
+
+3) What we have here is Virtual function Binding making the function to be dynamically bound and make decsions at run time. These "Virtual" in front of Shape::containsPoint and Shape::getArea will help the functions be prepared
+for polymorphism later on in the code. The "=0" part signifies that they are Pure Virtual Functions, forcing them to be overwritten in future classes that may inherit from the shape class.
+
+
+What is the purpose of the “: Shape(x, y)” (shown in bold in the code above). What happens if you remove it?
+
+
+
+4)To begin, the circle class is derived from the Shape class; The purpose of the ":Shape(x,y)" is so that the Circle(int...radius) portion inherits the "this->x = x; and this->y = y;" from shape(intx,inty) and later on includes its own code
+  this->radius = radius; which is not shared from Shapes.
+
+List an example of polymorphism that you can find in the code base.
+
+
+5)Polymorphism allows an object pointer to reference objects of different types and be able to use the appropriate member function.
+An example of Polymorphism potentially being used is in GridWriter "GridWriter& GridWriter::add(Shape *s)"  
